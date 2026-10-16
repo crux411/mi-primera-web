@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>Barbería Estilo</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      padding: 55px 20px;
+      background: linear-gradient(135deg, #292929, #111);
+    }
+
+    h1 {
+      color: #e9bd62;
+      font-size: clamp(30px, 8vw, 46px);
+    }
+
+    h2 { color: #e9bd62; }
+
+    section { padding: 25px 16px; }
+
+    .servicio {
+      background: #252525;
+      padding: 20px;
+      margin: 15px auto;
+      border-radius: 12px;
+      max-width: 360px;
+    }
+
+    .precio {
+      color: #e9bd62;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 15px 22px;
+      border-radius: 10px;
+      background: #25d366;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    footer {
+      padding: 22px;
+      color: #aaa;
+      background: #191919;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <p>✂️ BARBERÍA</p>
+    <h1>ESTILO</h1>
+    <p>Tu estilo, tu personalidad.</p>
+    <p>Cortes modernos y atención personalizada.</p>
+    <a class="boton" href="#servicios"
+       style="background:#e9bd62">
+      Ver servicios
+    </a>
+  </header>
+
+  <section id="servicios">
+    <h2>Nuestros servicios</h2>
+
+    <div class="servicio">
+      <h3>✂️ Corte clásico</h3>
+      <p>Un estilo limpio y elegante.</p>
+      <p class="precio">$120 MXN</p>
+    </div>
+
+    <div class="servicio">
+      <h3>🧔 Corte y barba</h3>
+      <p>Un look completo y moderno.</p>
+      <p class="precio">$180 MXN</p>
+    </div>
+
+    <p>Precios de ejemplo; cámbialos por los reales.</p>
+  </section>
+
+  <section>
+    <h2>¡Reserva tu cita!</h2>
+    <p>Contáctanos por WhatsApp.</p>
+
+    <!-- Cambia el número por el del negocio,
+         con código de país y sin signos ni espacios. -->
+    <a class="boton"
+       href="https://wa.me/521XXXXXXXXXX">
+      Contactar por WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>Barbería Estilo</p>
+    <p>© 2026 · Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
